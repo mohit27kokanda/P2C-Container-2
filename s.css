@@ -1325,7 +1325,7 @@ body {
 }
 */
 
-// HEADER
+
 header {
     position: fixed;
     width: 100%;
@@ -1335,10 +1335,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;}
 
-    h1,
-    button {
+    h1 ,button {
         position: relative;
         z-index: 10;
     }
@@ -1370,8 +1369,9 @@ header {
             transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955),
             box-shadow .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         overflow: hidden;
+    }
 
-        &:hover {
+        /* &:hover {
             box-shadow: 0 0 0 0 rgba(#000, 0.5);
         }
 
@@ -1558,4 +1558,4 @@ nav {
             transform: translateY(0);
         }
     }
-}
+} */

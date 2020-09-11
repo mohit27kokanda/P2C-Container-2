@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>1Power2Create</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link href="/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/animate.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <link href="s.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="loader">
+        <img src="img/loader.gif" alt="Loading..." />
+    </div>
+    <div class="slideshow-container ">
+        <div class="slideshow-inner">
+            <div class="shade">
+                <header>
+                    <div>
+
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="logo">
+                                <a href="#" class="navbar-brand h1"><img class="mr-2 logo-image show" src="img/quote.png"><img class="mr-2 logo-image show-hover" src="image/Artboard 2@4x.png">
+                                    <strong class="full-logo">Power<span>2</span>Create</strong>
+                                </a>
+                                <div class="vl-line vline">
+                                </div>
+                            </div>
+                            <button class="navbar-toggler" onclick="toggl()" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                <span class="navbar-toggler-icon"></span>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="button-div navbar-nav">
+                                    <li class="nav-btn nav-item" onclick="">
+
+                                        <strong>Company</strong>
+
+                                    </li>
+
+                                    <li class="nav-btn nav-item" onclick=""><strong>Services</strong>
+
+                                    </li>
+                                    <li class="nav-btn nav-item" onclick=""><strong>Blogs</strong></li>
+                                    <li class="nav-btn nav-item" onclick=""><strong>Contact Us</strong></li>
+                                    <li class="button_slide slide_right nav-item"><strong>Get a Free Quote</strong></li>
+
+                            </div>
+
+                    </div>
+                    </nav>
+            </div>
+            </header>
+
+
+        </div>
+        <div class="mySlides ">
+
+            <img src='img/gif-1920x1080-web&app.gif' class="image-design image-transition" alt="Web & App" />
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Fundraising<br> & Valuation</strong> </a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Idea Identification <br> & Assessment </strong></a>
+
+        </div>
+
+        <div class="mySlides ">
+
+            <img src='img/gif-idea.gif' class="image-design" alt="Idea Identification & Assesment" />
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Web<br> & App</strong> </a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Business <br>Planning</strong></a>
+
+        </div>
+
+        <div class="mySlides">
+            <img src='img/gif-business-planning.gif' class="image-design" alt="Business Planning" />
+            <div class="banner-heading">
+                <h1 style="font-size: 70px;"><b>Business Planning</b></h1>
+                <div class="banner-content">
+                    <h2><b>Shaping Your Ideas With a Plan</b></h2>
+                </div>
+            </div>
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Idea Identification<br> & Assessment</strong></a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Buliding a Legal <br>Foundation</strong></a>
+
+        </div>
+
+        <div class="mySlides ">
+
+            <img src='img/gif-legal.gif' class="image-design" alt="Legal Foundation" />
+            <div class="banner-heading">
+                <h1 style="font-size: 50px;"><b>Building a Legal Foundation</b></h1>
+                <div class="banner-content">
+                    <h2><b>Laying Brick By Brick Creating Robust</b></h2>
+                </div>
+                <div class="banner-content">
+                    <h2><b>Legal Foundation</b></h2>
+                </div>
+            </div>
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Business <br>Planning</strong></a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Fundraising <br> & Valuation</strong> </a>
+
+        </div>
+        <div class="mySlides ">
+
+            <img src='img/gif-fundraiser.gif' class="image-design" alt="Fundraiser" />
+            <div class="banner-heading">
+                <h1><b>Fundraising and Valuation</b></h1>
+                <div class="banner-content">
+                    <h2><b>Give Your Spark the fuel it</b></h2>
+                </div>
+                <div class="banner-content">
+                    <h2><b>Needs To Soar High</b></h2>
+                </div>
+            </div>
+            <a class="prev text-link" onclick='plusSlides(-1)'><strong>Buliding a Legal<br> Foundation</strong> </a>
+            <a class="next text-link" onclick='plusSlides(1)'><strong>Web <br>& App </strong></a>
+
+        </div>
+        <div>
+
+            <div class="vr-line vline">
+
+            </div>
+
+        </div>
+
+
+
+
+        <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+        <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+        <div class="dot-div" style='text-align: center;'>
+            <span class="dot" onclick='currentSlide(1)'></span>
+            <span class="dot" onclick='currentSlide(2)'></span>
+            <span class="dot" onclick='currentSlide(3)'></span>
+            <span class="dot" onclick='currentSlide(4)'></span>
+            <span class="dot" onclick='currentSlide(5)'></span>
+        </div>
+    </div>
+    <a class="move-to-c2" href="#C-2">
+        <div class=" col-md-3 Scroll-div">
+            <a href="#C-2" class="btn-scroll ">Scroll Down</a>
+        </div>
+    </a>
+    <a class="vertical-small-line" href="#C-2">
+
+    </a>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="center-div">
+        <div class="cursor cursor--small"></div>
+        <canvas class="cursor cursor--canvas" resize></canvas>
+
+        <nav class="nav">
+            <a href="#" class="link"></a>
+        </nav>
+    </div>
+
+
+    <div class="Containerfliud">
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class=" Number-1" id="right-colms" href="#">
+                    <number class="number-text">01</number><span class=" company-tag-text"> Web & App Development</span>
+                </div>
+            </div>
+            <div class="col-7   left">
+                <div id="left-colms" class="boxes-1">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="a-1">
+                    </div>
+                    <div class="a-2">
+                    </div>
+                    <div class="a-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class="Number-2" id="right-colms" href="#">
+                    <number class="number-text">02</number> <span class="company-tag-text"> Business Planning</span>
+                </div>
+            </div>
+            <div class="col-7 left-align  left">
+                <div id="left-colms" class="boxes-2">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="b-1">
+                    </div>
+                    <div class="b-2">
+                    </div>
+                    <div class="b-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class="Number-3" id="right-colms" href="#">
+                    <number class="number-text ">03</number> <span class="company-tag-text No-3"> Idea Identification and Assessment</span>
+                </div>
+            </div>
+            <div class="col-7 left-align  left">
+                <div id="left-colms" class="boxes-3">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="c-1">
+                    </div>
+                    <div class="c-2">
+                    </div>
+                    <div class="c-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class="Number-4 No-4" id="right-colms" href="#">
+                    <number class="number-text">04</number><span class="company-tag-text"> Building a Legal Foundation</span>
+                </div>
+            </div>
+            <div class="col-7 left-align  left">
+                <div id="left-colms" class="boxes-4">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="d-1">
+                    </div>
+                    <div class="d-2">
+                    </div>
+                    <div class="d-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class="Number-5" id="right-colms" href="#">
+                    <number class="number-text">05</number><span class="company-tag-text No-5"> Understanding Financial Basics</span>
+                </div>
+            </div>
+            <div class="col-7 left-align left">
+                <div id="left-colms" class="boxes-5">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="e-1">
+                    </div>
+                    <div class="e-2">
+                    </div>
+                    <div class="e-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class=" Number-6" id="right-colms" href="#">
+                    <number class="number-text">06</number><span class="company-tag-text"> Fund Raising and Valuation</span>
+                </div>
+            </div>
+            <div class="col-7 left-align  left">
+                <div id="left-colms" class="boxes-6">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="f-1">
+                    </div>
+                    <div class="f-2">
+                    </div>
+                    <div class="f-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+
+            <div class="col-5 right">
+                <div class="Number-7" id="right-colms" href="#">
+                    <number class="number-text">07</number>
+                    <span class="company-tag-text"> Pitching and Term Sheet</span>
+                </div>
+            </div>
+            <div class="col-7  left-align left">
+                <div id="left-colms" class="boxes-7">
+                    <video autoplay muted loop>
+                        <source src="Video/BG_Video.mp4" type="video/mp4">
+                    </video>
+                    <div class="g-1">
+                    </div>
+                    <div class="g-2">
+                    </div>
+                    <div class="g-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="Script.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script src="JS-Cursor.js"></script>
+</body>
+
+</html>

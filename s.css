@@ -472,8 +472,8 @@ body {
 }
 
 .boxes-2 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 .boxes-2 > .b-1 {
@@ -613,8 +613,8 @@ body {
 }
 
 .boxes-3 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 
 
 }
@@ -756,8 +756,8 @@ body {
 }
 
 .boxes-4 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 .boxes-4 > .d-1 {
@@ -896,8 +896,8 @@ body {
 }
 
 .boxes-5 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 .boxes-5 > .e-1 {
@@ -1035,8 +1035,8 @@ body {
 }
 
 .boxes-6 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 .boxes-6 > .f-1 {
@@ -1174,8 +1174,8 @@ body {
 }
 
 .boxes-7 > video {
-    width: 880px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 .boxes-7 > .g-1 {
